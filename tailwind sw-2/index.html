@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex justify-center items-center min-h-screen bg-gray-100">
+
+    <div class="max-w-md bg-white rounded-lg shadow-lg overflow-hidden flex">
+        <!-- Product Image -->
+        <img src="./244760587.jpg" alt="Classic Utility Jacket" class="w-1/2 object-cover">
+        
+        <!-- Product Details -->
+        <div class="w-1/2 p-4">
+            <h2 class="text-lg font-semibold">Classic Utility Jacket</h2>
+            <p class="text-gray-600">In stock</p>
+            <p class="text-xl font-bold mt-1">$110.00</p>
+
+            <!-- Size Selector -->
+            <div class="flex space-x-2 my-3">
+                <button class="px-3 py-1 border rounded-md font-medium focus:bg-black focus:text-white">XS</button>
+                <button class="px-3 py-1 border rounded-md font-medium">S</button>
+                <button class="px-3 py-1 border rounded-md font-medium">M</button>
+                <button class="px-3 py-1 border rounded-md font-medium">L</button>
+                <button class="px-3 py-1 border rounded-md font-medium">XL</button>
+            </div>
+
+            <!-- Buttons -->
+            <div class="flex space-x-2">
+                <button class="bg-black text-white px-4 py-2 rounded-md font-semibold">Buy now</button>
+                <button class="border px-4 py-2 rounded-md font-semibold">Add to bag</button>
+            </div>
+
+            <!-- Free Shipping -->
+            <p class="text-gray-500 text-sm mt-2">Free shipping on all continental US orders.</p>
+        </div>
+    </div>
+
+</body>
+</html>
